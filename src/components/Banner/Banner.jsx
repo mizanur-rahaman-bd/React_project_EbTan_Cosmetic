@@ -11,7 +11,7 @@ const Banner = () => {
   return (
     
     <>
-    <section className='Banner pl-[10px] lg:pl-0 pt-[30px] lg:pt-[97px] mb-[40px] lg:mb-[188px]'>
+    <section className='Banner pl-[10px] lg:pl-0 pt-[30px] lg:pt-[97px] mb-[20px] lg:mb-[188px]'>
         <div className="container">
             <div className="Banner_row flex flex-wrap gap-[10px] lg:gap-[72px] items-center justify-center">
                 <div className="banner_img">
