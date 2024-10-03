@@ -4,6 +4,7 @@ import WhyUs from '../components/WhyUs/WhyUs'
 import HandWash from '../components/HandWash/HandWash'
 import Cream from '../components/Cream/Cream'
 import LipBalm from '../components/LipBalm/LipBalm'
+import Review from '../components/Review/Review'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
     <HandWash />
     <Cream />
     <LipBalm />
+    <Review />
     
     </>
   )
