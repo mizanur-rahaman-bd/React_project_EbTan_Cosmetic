@@ -1,11 +1,12 @@
 import React from 'react'
 import CommonHead from '../Common/CommonHead'
 import CommonAccro from '../Common/CommonAccro'
+import CommonButton from '../Common/CommonButton'
 
 const Cream = () => {
   return (
     <>
-    <section>
+    <section className='mb-[60px] lg:mb-[155px]'>
         <div className="container">
             <div className="cream_row px-[10px] lg:px-0 flex flex-wrap gap-[30px] lg:gap-[120px]">
                 <div className="img_col">
@@ -22,6 +23,10 @@ const Cream = () => {
                     <CommonAccro accrohead={'How to use'} />
                     <CommonAccro accrohead={'Ingredients'} />
                     <CommonAccro accrohead={'Benefits'} />
+                    <div className='mt-[18px] lg:mt-[37px] flex gap-[27px] items-center'>
+                        <CommonButton commonbottontext={'Add to cart'} commonbuttoneffect={'active:scale-110 hover:bg-[#399918] hover:text-black'} />
+                        <p className='font-pt_serif font-normal text-[30px] text-[#C51605]'>৳ 500</p>
+                    </div>
 
                 </div>
             </div>
