@@ -1,4 +1,5 @@
 import React from 'react'
+import CommonReview from '../Common/CommonReview'
 
 const Review = () => {
   return (
@@ -18,6 +19,7 @@ const Review = () => {
             </div>
 
                 </div>
+                <CommonReview />
             </div>
         </div>
     </section>
