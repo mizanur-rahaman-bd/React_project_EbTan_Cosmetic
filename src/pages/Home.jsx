@@ -5,6 +5,8 @@ import HandWash from '../components/HandWash/HandWash'
 import Cream from '../components/Cream/Cream'
 import LipBalm from '../components/LipBalm/LipBalm'
 import Review from '../components/Review/Review'
+import Subscribe from '../components/Subscribe/Subscribe'
+import Footer from '../components/Footer/Footer'
 
 const Home = () => {
   return (
@@ -17,6 +19,8 @@ const Home = () => {
     <Cream />
     <LipBalm />
     <Review />
+    <Subscribe />
+    <Footer />
     
     </>
   )
