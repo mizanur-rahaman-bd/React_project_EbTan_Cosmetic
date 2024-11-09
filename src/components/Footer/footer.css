@@ -1,0 +1,21 @@
+.footer_menu {
+  @apply mb-[30px] lg:mb-[50px];
+}
+.footer_menu ul {
+  @apply flex justify-center gap-[20px] lg:gap-[33px];
+}
+.footer_menu ul li a {
+  @apply font-inter font-medium text-[14px] lg:text-[18px] text-white;
+}
+.footer_icon {
+  @apply mb-[20px];
+}
+.footer_icon ul {
+  @apply flex justify-center gap-[29px];
+}
+.footer_text {
+  @apply text-center;
+}
+.footer_text p {
+  @apply font-inter font-medium text-[18px] text-white;
+}
